@@ -20,7 +20,7 @@ public class FirstClass {
 		
 	}
 	
-	@RequestMapping("/hi")
+	@RequestMapping(value = "/hi")
 	@ResponseBody
 	public String sec() {
 		
