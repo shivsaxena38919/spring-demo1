@@ -21,7 +21,7 @@ public class FirstClass {
 	}
 	
 	@RequestMapping(value = "/hi")
-	public @ResponseBody String sec() {
+	public @ResponseBody String sec() throws Exception {
 		
 		return "HI first program";
 		
