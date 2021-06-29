@@ -20,7 +20,7 @@ public class FirstClass {
 		
 	}
 	
-	@RequestMapping(value = "/hi")
+	@RequestMapping(value = "/demo-1/hi")
 	public @ResponseBody String sec() throws Exception {
 		
 		return "HI first program";
